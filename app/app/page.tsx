@@ -108,7 +108,7 @@ export default function DemoPage() {
           animate={{ opacity: 1, y: 0 }}
           className="text-center mb-12"
         >
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Demo E-waste</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Demo E-cycle</h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Sube una foto o selecciona un ejemplo para ver cómo funciona la clasificación
           </p>

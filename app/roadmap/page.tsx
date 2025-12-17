@@ -124,7 +124,7 @@ export default function RoadmapPage() {
             <h1 className="text-4xl md:text-5xl font-bold">Roadmap</h1>
           </div>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Plan de desarrollo y crecimiento para E-waste
+            Plan de desarrollo y crecimiento para E-cycle
           </p>
         </motion.div>
 

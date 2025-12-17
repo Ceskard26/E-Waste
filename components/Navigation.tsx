@@ -37,7 +37,7 @@ export function Navigation() {
           <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center">
             <span className="text-primary-foreground font-bold text-sm">E</span>
           </div>
-          <span className="font-bold text-xl">E-waste</span>
+          <span className="font-bold text-xl">E-cycle</span>
         </Link>
 
         {/* Desktop Navigation */}
@@ -73,9 +73,11 @@ export function Navigation() {
             {theme === 'dark' ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
           </Button>
 
-          <Button asChild className="hidden md:inline-flex">
-            <Link href="/app">{t('tryDemo')}</Link>
-          </Button>
+          <Link href="/app" className="hidden md:inline-flex">
+            <Button>
+              {t('tryDemo')}
+            </Button>
+          </Link>
 
           {/* Mobile menu button */}
           <Button
@@ -110,11 +112,11 @@ export function Navigation() {
                 {item.label}
               </Link>
             ))}
-            <Button asChild className="w-full mt-4">
-              <Link href="/app" onClick={() => setIsMenuOpen(false)}>
+            <Link href="/app" onClick={() => setIsMenuOpen(false)} className="w-full mt-4">
+              <Button className="w-full">
                 {t('tryDemo')}
-              </Link>
-            </Button>
+              </Button>
+            </Link>
           </div>
         </motion.div>
       )}

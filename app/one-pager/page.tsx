@@ -44,12 +44,12 @@ export default function OnePagerPage() {
   const team = [
     {
       name: 'César Carrasco',
-      roles: ['PM/Pitch', 'Backend', 'Marketing'],
+      roles: ['PM/Pitch', 'Cloud Solutions', 'IBM Cloud Specialist'],
       linkedin: 'https://www.linkedin.com/in/cesar-carrasco-rojas/'
     },
     {
       name: 'Brenda Mendoza',
-      roles: ['ML/Data', 'Frontend', 'Investigación de impacto'],
+      roles: ['ML/Data', 'Frontend', 'BID-IA Specialist'],
       linkedin: 'https://www.linkedin.com/in/brenda-mendoza-34a4082b6/'
     }
   ]
@@ -66,7 +66,7 @@ export default function OnePagerPage() {
             <div className="h-12 w-12 rounded-lg bg-primary flex items-center justify-center mr-4">
               <span className="text-primary-foreground font-bold text-xl">E</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold">E-waste One Pager</h1>
+            <h1 className="text-4xl md:text-5xl font-bold">E-cycle One Pager</h1>
           </div>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Reconoce residuos electrónicos con una foto y aprende a reciclarlos bien

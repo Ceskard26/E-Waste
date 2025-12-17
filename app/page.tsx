@@ -1,25 +1,25 @@
 'use client'
 
 import { HeroSection } from '@/components/sections/HeroSection'
-import { ProblemSection } from '@/components/sections/ProblemSection'
+import { StatsSection } from '@/components/sections/StatsSection'
+import { FeatureShowcaseSection } from '@/components/sections/FeatureShowcaseSection'
 import { HowItWorksSection } from '@/components/sections/HowItWorksSection'
-import { MVPSection } from '@/components/sections/MVPSection'
+import { TestimonialSection } from '@/components/sections/TestimonialSection'
+import { DemoPreviewSection } from '@/components/sections/DemoPreviewSection'
 import { ImpactSection } from '@/components/sections/ImpactSection'
-import { ValidationSection } from '@/components/sections/ValidationSection'
 import { FormsSection } from '@/components/sections/FormsSection'
-import { RoadmapPreviewSection } from '@/components/sections/RoadmapPreviewSection'
 
 export default function HomePage() {
   return (
     <div className="min-h-screen">
       <HeroSection />
-      <ProblemSection />
+      <StatsSection />
+      <FeatureShowcaseSection />
       <HowItWorksSection />
-      <MVPSection />
+      <TestimonialSection />
+      <DemoPreviewSection />
       <ImpactSection />
-      <ValidationSection />
       <FormsSection />
-      <RoadmapPreviewSection />
     </div>
   )
 }

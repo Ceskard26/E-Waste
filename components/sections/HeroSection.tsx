@@ -68,7 +68,17 @@ export function HeroSection() {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight"
           >
-            {t('heroHeadline')}
+            <span className="bg-gradient-to-r from-primary to-green-600 bg-clip-text text-transparent">
+              E-cycle
+            </span>
+            <br />
+            <span className="text-foreground">
+              Transforma residuos en
+            </span>
+            <br />
+            <span className="bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">
+              oportunidades
+            </span>
           </motion.h1>
 
           {/* Subheadline */}
@@ -78,7 +88,8 @@ export function HeroSection() {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed"
           >
-            {t('heroSubheadline')}
+            La primera plataforma de IA que identifica residuos electrónicos al instante y 
+            te guía hacia un reciclaje inteligente y rentable.
           </motion.p>
 
           {/* CTAs */}
@@ -86,18 +97,36 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8, duration: 0.8 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8"
+            className="flex flex-col sm:flex-row gap-6 justify-center items-center pt-8"
           >
             <Link href="/app">
-              <Button size="lg" className="text-lg px-8 py-6">
-                {t('tryDemo')}
+              <Button size="lg" className="text-lg px-12 py-6 bg-gradient-to-r from-primary to-green-600 hover:from-primary/90 hover:to-green-600/90 shadow-2xl hover:shadow-primary/25 transition-all duration-300">
+                📱 Probar Gratis Ahora
               </Button>
             </Link>
             <Link href="/one-pager">
-              <Button variant="outline" size="lg" className="text-lg px-8 py-6">
-                {t('viewOnePager')}
+              <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-2 hover:bg-primary/5">
+                📄 Ver Casos de Éxito
               </Button>
             </Link>
+          </motion.div>
+          
+          {/* Trust indicators */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.0, duration: 0.8 }}
+            className="flex flex-wrap justify-center items-center gap-6 pt-8 text-sm text-muted-foreground"
+          >
+            <span className="flex items-center gap-2">
+              ✓ Sin registro requerido
+            </span>
+            <span className="flex items-center gap-2">
+              ✓ Resultados en 30 segundos
+            </span>
+            <span className="flex items-center gap-2">
+              ✓ 100% gratuito
+            </span>
           </motion.div>
         </motion.div>
 

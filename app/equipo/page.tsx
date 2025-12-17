@@ -11,15 +11,15 @@ export default function TeamPage() {
   const team = [
     {
       name: 'César Carrasco',
-      roles: ['PM/Pitch', 'Backend', 'Marketing'],
-      description: 'Product Manager con experiencia en desarrollo de software y estrategia de producto. Especializado en backend y go-to-market para startups tecnológicas.',
+      roles: ['PM/Pitch', 'Backend', 'Cloud Solutions'],
+      description: 'Ingeniero de Ciberseguridad y Cloud Customer Success Specialist en IBM Cloud. 8 meses de experiencia en soluciones cloud y gestión de productos tecnológicos.',
       responsibilities: [
         'Definición de producto y roadmap',
-        'Desarrollo backend y APIs',
+        'Arquitectura cloud y deployment',
         'Estrategia de marketing y pitch',
         'Gestión de stakeholders'
       ],
-      skills: ['Product Management', 'Node.js', 'Python', 'Marketing Digital', 'Pitch Deck'],
+      skills: ['Cybersecurity', 'IBM Cloud', 'Customer Success', 'Product Management', 'Cloud Architecture'],
       linkedin: 'https://www.linkedin.com/in/cesar-carrasco-rojas/',
       email: 'cesar@e-waste.com',
       github: 'https://github.com/Ceskard26'
@@ -27,14 +27,14 @@ export default function TeamPage() {
     {
       name: 'Brenda Mendoza',
       roles: ['ML/Data', 'Frontend', 'Investigación de impacto'],
-      description: 'Data Scientist y Frontend Developer con pasión por el impacto ambiental. Especializada en machine learning y desarrollo de interfaces de usuario.',
+      description: 'Ingeniera de Ciberseguridad especializada en IA, próxima a iniciar en el área de Inteligencia Artificial del Banco Interamericano de Desarrollo (BID).',
       responsibilities: [
         'Desarrollo del modelo de clasificación ML',
         'Implementación frontend y UX',
         'Investigación de impacto ambiental',
         'Análisis de datos y métricas'
       ],
-      skills: ['Machine Learning', 'React', 'Python', 'Data Analysis', 'Sustainability Research'],
+      skills: ['Cybersecurity', 'Machine Learning', 'AI Research', 'React', 'Data Analysis'],
       linkedin: 'https://www.linkedin.com/in/brenda-mendoza-34a4082b6/',
       email: 'brenda@e-waste.com',
       github: 'https://github.com/BrendaMendozaJ'
@@ -42,10 +42,10 @@ export default function TeamPage() {
   ]
 
   const teamStats = [
-    { label: 'Años de experiencia combinada', value: '10+' },
-    { label: 'Proyectos de impacto social', value: '5+' },
-    { label: 'Tecnologías dominadas', value: '15+' },
-    { label: 'Hackathons participados', value: '8+' }
+    { label: 'Experiencia en Ciberseguridad', value: '2 Ing.' },
+    { label: 'Experiencia IBM Cloud', value: '8 meses' },
+    { label: 'Próximo rol en BID-IA', value: '1 persona' },
+    { label: 'Hackathons participados', value: '3+' }
   ]
 
   return (

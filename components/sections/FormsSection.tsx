@@ -19,7 +19,7 @@ export function FormsSection() {
     userType: '',
   })
   const [signupSubmitted, setSignupSubmitted] = useState(false)
-  const [signupStorage, setSignupStorage] = useLocalStorage('signup-submissions', [])
+  const [signupStorage, setSignupStorage] = useLocalStorage<any[]>('signup-submissions', [])
 
   // Right form state
   const [feedbackData, setFeedbackData] = useState({
@@ -28,7 +28,7 @@ export function FormsSection() {
     comment: '',
   })
   const [feedbackSubmitted, setFeedbackSubmitted] = useState(false)
-  const [feedbackStorage, setFeedbackStorage] = useLocalStorage('feedback-submissions', [])
+  const [feedbackStorage, setFeedbackStorage] = useLocalStorage<any[]>('feedback-submissions', [])
 
   const handleSignupSubmit = (e: React.FormEvent) => {
     e.preventDefault()

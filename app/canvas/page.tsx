@@ -65,7 +65,7 @@ export default function CanvasPage() {
         >
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Lean Canvas</h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Modelo de negocio para E-waste - Prototipo educativo
+            Modelo de negocio para E-cycle - Prototipo educativo
           </p>
         </motion.div>
 
