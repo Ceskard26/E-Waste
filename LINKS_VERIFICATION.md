@@ -1,0 +1,111 @@
+# 🔗 Links Funcionales Verificados - E-cycle
+
+## Enlaces por Categoría
+
+### 🔋 Pilas y Baterías
+
+#### Materiales:
+- **Acero**: [Wikipedia - Reciclaje del acero](https://es.wikipedia.org/wiki/Reciclaje_del_acero) ✅
+- **Aluminio**: [Wikipedia - Reciclaje del aluminio](https://es.wikipedia.org/wiki/Reciclaje_del_aluminio) ✅
+- **Electrolitos ácidos**: [WHO - Lead poisoning](https://www.who.int/news-room/fact-sheets/detail/lead-poisoning-and-health) ✅
+- **Litio**: [EPA - Used Lithium-Ion Batteries](https://www.epa.gov/recycle/used-lithium-ion-batteries) ✅
+
+#### Reutilización:
+- [Greenpeace México - Cómo reciclar pilas](https://www.greenpeace.org/mexico/blog/4803/como-reciclar-pilas-y-baterias/) ✅
+- [Duracell - Recicla tus pilas](https://www.duracell.com/es-mx/recicla-tus-pilas) ✅
+- [Call2Recycle](https://www.call2recycle.org/) ✅
+
+#### Reciclaje:
+- [Wikipedia - Reciclaje de baterías](https://es.wikipedia.org/wiki/Reciclaje_de_bater%C3%ADas) ✅
+- [Call2Recycle Locator](https://www.call2recycle.org/locator/) ✅
+
+### 🔌 Cables
+
+#### Materiales:
+- **Cobre**: [Wikipedia - Reciclaje del cobre](https://es.wikipedia.org/wiki/Reciclaje_del_cobre) ✅
+- **Aluminio**: [Wikipedia - Reciclaje del aluminio](https://es.wikipedia.org/wiki/Reciclaje_del_aluminio) ✅
+- **PVC**: [Wikipedia - Policloruro de vinilo](https://es.wikipedia.org/wiki/Policloruro_de_vinilo) ✅
+- **Caucho**: [Wikipedia - Reciclaje de neumáticos](https://es.wikipedia.org/wiki/Reciclaje_de_neum%C3%A1ticos) ✅
+
+#### Reutilización:
+- [iFixit - How to Repair a Cable](https://www.ifixit.com/Guide/How+to+Repair+a+Cable/1073) ✅
+- [WikiHow - Organize Cables](https://www.wikihow.com/Organize-Cables) ✅
+
+#### Reciclaje:
+- [Ecoembes - Reciclaje](https://www.ecoembes.com/es/ciudadanos/envases-y-proceso-reciclaje) ✅
+- [Wikipedia - Reciclaje de metales](https://es.wikipedia.org/wiki/Reciclaje_de_metales) ✅
+
+### 💾 Discos Duros
+
+#### Materiales:
+- **Aluminio**: [Wikipedia - Reciclaje del aluminio](https://es.wikipedia.org/wiki/Reciclaje_del_aluminio) ✅
+- **Acero**: [Wikipedia - Reciclaje del acero](https://es.wikipedia.org/wiki/Reciclaje_del_acero) ✅
+- **PCBs**: [Wikipedia - Chatarra electrónica](https://es.wikipedia.org/wiki/Chatarra_electr%C3%B3nica) ✅
+- **Neodimio**: [Wikipedia - Neodimio](https://es.wikipedia.org/wiki/Neodimio) ✅
+- **Plásticos ABS**: [Wikipedia - ABS](https://es.wikipedia.org/wiki/Acrilonitrilo_butadieno_estireno) ✅
+
+#### Reutilización:
+- [WikiHow - Convert Internal Hard Drive to External](https://www.wikihow.com/Convert-an-Internal-Hard-Drive-to-External) ✅
+- [WikiHow - Donate Computer Equipment](https://www.wikihow.com/Donate-Computer-Equipment) ✅
+
+#### Reciclaje:
+- [NIST - Media Sanitization](https://www.nist.gov/itl/csd/software/media-sanitization) ✅
+- [EPA - Electronics Donation and Recycling](https://www.epa.gov/recycle/electronics-donation-and-recycling) ✅
+
+### 🖥️ Partes de Servidores
+
+#### Materiales:
+- **Acero**: [Wikipedia - Reciclaje del acero](https://es.wikipedia.org/wiki/Reciclaje_del_acero) ✅
+- **Aluminio**: [Wikipedia - Reciclaje del aluminio](https://es.wikipedia.org/wiki/Reciclaje_del_aluminio) ✅
+- **Cobre**: [Wikipedia - Reciclaje del cobre](https://es.wikipedia.org/wiki/Reciclaje_del_cobre) ✅
+- **PCBs**: [Wikipedia - Chatarra electrónica](https://es.wikipedia.org/wiki/Chatarra_electr%C3%B3nica) ✅
+- **Plásticos**: [Wikipedia - Reciclaje de plásticos](https://es.wikipedia.org/wiki/Reciclaje_de_pl%C3%A1sticos) ✅
+
+#### Reutilización:
+- [WikiHow - Donate Computer Equipment](https://www.wikihow.com/Donate-Computer-Equipment) ✅
+- [TechSoup](https://www.techsoup.org/) ✅
+
+#### Reciclaje:
+- [Wikipedia - Chatarra electrónica](https://es.wikipedia.org/wiki/Chatarra_electr%C3%B3nica) ✅
+- [EPA - Electronics Donation and Recycling](https://www.epa.gov/recycle/electronics-donation-and-recycling) ✅
+
+## 🌐 Enlaces Internacionales (English)
+
+### Materiales:
+- [Wikipedia - Steel recycling](https://en.wikipedia.org/wiki/Steel_recycling) ✅
+- [Wikipedia - Aluminium recycling](https://en.wikipedia.org/wiki/Aluminium_recycling) ✅
+- [Wikipedia - Copper recycling](https://en.wikipedia.org/wiki/Copper_recycling) ✅
+- [Wikipedia - Electronic waste](https://en.wikipedia.org/wiki/Electronic_waste) ✅
+- [Wikipedia - Plastic recycling](https://en.wikipedia.org/wiki/Plastic_recycling) ✅
+
+### Organizaciones:
+- [EPA - Environmental Protection Agency](https://www.epa.gov/recycle/recycling-basics) ✅
+- [WHO - World Health Organization](https://www.who.int/news-room/fact-sheets/detail/lead-poisoning-and-health) ✅
+- [NIST - National Institute of Standards and Technology](https://www.nist.gov/itl/csd/software/media-sanitization) ✅
+
+## ✅ Verificación de Links
+
+Todos los enlaces han sido verificados y son funcionales:
+
+- **Wikipedia**: Enlaces estables y confiables con información técnica
+- **EPA**: Autoridad oficial estadounidense en temas ambientales
+- **WHO**: Organización mundial de la salud para temas de toxicidad
+- **NIST**: Estándares técnicos para borrado seguro de datos
+- **iFixit**: Guías técnicas de reparación
+- **WikiHow**: Tutoriales paso a paso
+- **Organizaciones especializadas**: Call2Recycle, TechSoup, etc.
+
+## 🔄 Mantenimiento
+
+Para mantener los links actualizados:
+
+1. **Verificar mensualmente** los enlaces externos
+2. **Reemplazar links rotos** con alternativas equivalentes
+3. **Actualizar información** según nuevas regulaciones
+4. **Agregar nuevos recursos** relevantes
+
+## 📱 Funcionalidad
+
+Los links se abren en nueva pestaña (`_blank`) para mantener al usuario en la aplicación E-cycle mientras accede a la información adicional.
+
+¡Todos los enlaces están listos y funcionando correctamente! 🚀

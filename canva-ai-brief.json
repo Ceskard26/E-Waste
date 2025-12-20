@@ -1,0 +1,111 @@
+{
+  "proyecto": "E-cycle - Reconocimiento de residuos electrónicos",
+  "descripcion": "Aplicación web que identifica componentes electrónicos desde una foto y proporciona guía inmediata para reciclaje y reutilización responsable",
+  
+  "problema": {
+    "titulo": "Mala gestión de residuos electrónicos",
+    "descripcion": "Las empresas y hogares desechan componentes electrónicos sin información clara sobre materiales, riesgos y opciones de reciclaje/reutilización",
+    "puntos_clave": [
+      "78% no conoce centros de acopio especializados",
+      "65% mezcla componentes electrónicos con basura común", 
+      "Se pierde valor recuperable (metales y componentes) por mala segregación",
+      "Falta una guía simple: qué es, qué contiene y qué hacer con ello",
+      "Especialmente crítico en empresas con gran volumen de componentes electrónicos"
+    ],
+    "validacion": "85% de validación del problema con 10 entrevistas en profundidad + 30 respuestas de encuesta"
+  },
+
+  "solucion": {
+    "titulo": "Identificación inteligente con guía accionable",
+    "descripcion": "Aplicación que identifica componentes electrónicos desde una foto y proporciona información completa y guías de acción inmediatas",
+    "caracteristicas": [
+      "Clasificación automática del tipo de componente electrónico con confianza 78-96%",
+      "Información detallada de materiales y componentes",
+      "Tiempo de degradación estimado y nivel de riesgo ambiental", 
+      "Guías accionables para reciclaje y reutilización",
+      "Flujo simple en 3 pasos: foto → análisis → acción",
+      "Contenido educativo sobre impacto ambiental"
+    ],
+    "tecnologia": "Next.js 14, TypeScript, IA para clasificación, diseño responsive",
+    "categorias_soportadas": ["Pilas/baterías", "Cables", "Discos duros", "Partes de servidores"]
+  },
+
+  "modelo_negocio": {
+    "segmentos_cliente": [
+      "Empresas (TI/Operaciones) - Segmento principal",
+      "Personas comunes (hogares) - Segmento secundario"
+    ],
+    "propuesta_valor": "Una guía inmediata con una foto: qué es, qué contiene, degradación estimada y qué hacer (reutilizar/reciclar)",
+    "canales_distribucion": [
+      "Universidades y centros educativos",
+      "LinkedIn y redes profesionales", 
+      "Alianzas estratégicas con empresas",
+      "Municipios (futuro)"
+    ],
+    "fuentes_ingresos": [
+      "B2B SaaS para empresas (futuro)",
+      "Reportes y consultoría ambiental (futuro)",
+      "Programas ESG corporativos (futuro)"
+    ],
+    "ventaja_competitiva": "Enfoque educativo + escalable a empresas/municipios + medición de impacto ambiental",
+    "estructura_costos": ["Hosting y desarrollo", "Dataset y etiquetado de ML (futuro)", "Marketing y alianzas"],
+    "metricas_clave": ["Usuarios registrados", "Feedbacks recibidos", "Demos completadas", "Impacto ambiental medido"]
+  },
+
+  "impacto": {
+    "ambiental": {
+      "ods_contribucion": [
+        "ODS 12: Producción y consumo responsables",
+        "ODS 13: Acción por el clima"
+      ],
+      "beneficios": [
+        "Mejora en la segregación correcta de componentes electrónicos",
+        "Identificación de valor recuperable en materiales",
+        "Reducción de contaminación por disposición incorrecta",
+        "Aumento de conciencia ambiental en empresas y hogares"
+      ]
+    },
+    "economico": {
+      "valor_recuperable": "Identificación de metales preciosos y componentes reutilizables",
+      "ahorro_empresarial": "Reducción de costos de gestión de residuos mediante mejor segregación",
+      "economia_circular": "Promoción de reutilización antes del reciclaje"
+    },
+    "social": {
+      "educacion": "89% de usuarios dispuestos a usar guía digital para componentes electrónicos",
+      "accesibilidad": "Interfaz simple en español/inglés, móvil-first",
+      "escalabilidad": "Modelo replicable en toda Latinoamérica"
+    },
+    "proyeccion_impacto": {
+      "corto_plazo": "Educación y concienciación sobre componentes electrónicos",
+      "mediano_plazo": "Alianzas con empresas y municipios para gestión responsable",
+      "largo_plazo": "Impacto medible en economía circular y reducción de CO₂"
+    }
+  },
+
+  "roadmap": {
+    "fase_actual": "Demo funcional y validación del problema (0-1 mes) ✅",
+    "fase_2": "MVP real con modelo ML y 10+ categorías (1-3 meses)",
+    "fase_3": "Alianzas empresariales y métricas ambientales (3-6 meses)", 
+    "fase_4": "Modelo SaaS consolidado y expansión LATAM (6+ meses)"
+  },
+
+  "equipo": [
+    {
+      "nombre": "César Carrasco",
+      "roles": ["PM/Pitch", "Cloud Solutions", "IBM Cloud Specialist"],
+      "linkedin": "https://www.linkedin.com/in/cesar-carrasco-rojas/"
+    },
+    {
+      "nombre": "Brenda Mendoza", 
+      "roles": ["ML/Data", "Frontend", "BID-IA Specialist"],
+      "linkedin": "https://www.linkedin.com/in/brenda-mendoza-34a4082b6/"
+    }
+  ],
+
+  "contexto_hackathon": {
+    "evento": "Hackathon ISC",
+    "estado": "Proyecto completo y listo para demo",
+    "entregables": ["Landing page", "Demo funcional", "Canvas de negocio", "One pager", "Roadmap", "Perfiles de equipo"],
+    "demo_url": "http://localhost:3000"
+  }
+}

@@ -9,6 +9,14 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'E-cycle | Reconoce residuos electrónicos',
   description: 'Identifica el tipo de e-waste, sus materiales, cuánto tarda en degradarse y cómo reciclar o reutilizarlo',
+  manifest: '/manifest.json',
+  viewport: 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no',
+  themeColor: '#22c55e',
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default',
+    title: 'E-cycle'
+  },
   openGraph: {
     title: 'E-cycle | Reconoce residuos electrónicos',
     description: 'Identifica el tipo de e-waste, sus materiales, cuánto tarda en degradarse y cómo reciclar o reutilizarlo',

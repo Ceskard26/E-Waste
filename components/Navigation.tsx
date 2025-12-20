@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { motion } from 'framer-motion'
 import { Moon, Sun, Globe, Menu, X } from 'lucide-react'
@@ -33,11 +34,19 @@ export function Navigation() {
       className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60"
     >
       <div className="container flex h-16 items-center justify-between">
-        <Link href="/" className="flex items-center space-x-2">
-          <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center">
-            <span className="text-primary-foreground font-bold text-sm">E</span>
+        <Link href="/" className="flex items-center space-x-3">
+          <div className="relative h-14 w-14">
+            <Image
+              src="/logo_sin_letras-removebg.png"
+              alt="E-cycle Logo"
+              fill
+              className="object-contain"
+              priority
+            />
           </div>
-          <span className="font-bold text-xl">E-cycle</span>
+          <span className="font-bold text-xl bg-gradient-to-r from-primary to-green-600 bg-clip-text text-transparent">
+            E-cycle
+          </span>
         </Link>
 
         {/* Desktop Navigation */}

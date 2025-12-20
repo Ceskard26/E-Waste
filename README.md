@@ -1,17 +1,17 @@
-# E-waste - Reconoce residuos electrónicos con una foto
+# E-cycle - Reconoce residuos electrónicos con una foto
 
-![E-waste Logo](https://via.placeholder.com/200x100/22c55e/ffffff?text=E-waste)
+![E-cycle Logo](https://via.placeholder.com/200x100/22c55e/ffffff?text=E-cycle)
 
 ## 🌍 Problema y Solución
 
 ### El Problema
-- Las empresas y hogares desechan e-waste sin información clara y segura
+- Las empresas y hogares desechan componentes electrónicos sin información clara y segura
 - Se pierde valor recuperable (metales y componentes) por mala segregación  
 - Falta una guía simple: qué es, qué contiene y qué hacer con ello
 
 ### Nuestra Solución
 Aplicación web que identifica residuos electrónicos desde una foto y proporciona:
-- **Clasificación automática** del tipo de e-waste
+- **Clasificación automática** del tipo de componente electrónico
 - **Información de materiales** y componentes
 - **Tiempo de degradación estimado**
 - **Nivel de riesgo ambiental**
@@ -26,8 +26,8 @@ Aplicación web que identifica residuos electrónicos desde una foto y proporcio
 ### Instalación
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/e-waste.git
-cd e-waste
+git clone https://github.com/tu-usuario/e-cycle.git
+cd e-cycle
 
 # Instalar dependencias
 npm install
@@ -56,7 +56,7 @@ npm run lint     # Linting
 - **Almacenamiento local** para formularios
 
 ### Versión Futura (Roadmap)
-- **Modelo de ML real** entrenado con dataset de e-waste
+- **Modelo de ML real** entrenado con dataset de componentes electrónicos
 - **15+ categorías** de residuos electrónicos
 - **API de clasificación** con confianza real
 - **Base de datos** de centros de reciclaje por ubicación

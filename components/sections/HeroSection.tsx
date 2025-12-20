@@ -1,15 +1,27 @@
 'use client'
 
-import { motion } from 'framer-motion'
+import { motion, useInView } from 'framer-motion'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import { getTranslation, type Locale } from '@/lib/i18n'
 
 export function HeroSection() {
   const [locale] = useState<Locale>('es')
   const t = (key: keyof typeof import('@/lib/i18n').translations.es) => getTranslation(locale, key)
+  
+  // Ref para el scroll trigger del subtítulo
+  const subtitleRef = useRef(null)
+  const isSubtitleInView = useInView(subtitleRef, { 
+    once: false, 
+    amount: 0.1
+  })
+
+  // Debug: ver si el trigger funciona
+  useEffect(() => {
+    console.log('Subtitle in view:', isSubtitleInView)
+  }, [isSubtitleInView])
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -61,25 +73,55 @@ export function HeroSection() {
             <Badge variant="secondary">{t('enterpriseFocus')}</Badge>
           </motion.div>
 
-          {/* Headline */}
-          <motion.h1
+          {/* Logo y Título */}
+          <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
-            className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight"
+            className="flex flex-col items-center justify-center mb-12"
           >
-            <span className="bg-gradient-to-r from-primary to-green-600 bg-clip-text text-transparent">
-              E-cycle
-            </span>
-            <br />
-            <span className="text-foreground">
+            {/* Logo sin letras - SÚPER GRANDE */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.5, rotate: -180 }}
+              animate={{ opacity: 1, scale: 1, rotate: 0 }}
+              transition={{ delay: 0.6, duration: 1, type: "spring", bounce: 0.4 }}
+              className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 xl:w-[28rem] xl:h-[28rem]"
+            >
+              <img
+                src="/logo_sin_letras-removebg.png"
+                alt="E-cycle Logo"
+                className="w-full h-full object-contain drop-shadow-2xl"
+              />
+            </motion.div>
+            
+            {/* Título E-cycle - SÚPER CERCA del logo EN BLANCO */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.8, duration: 0.8 }}
+              className="text-5xl md:text-7xl lg:text-8xl font-bold -mt-8 md:-mt-12 lg:-mt-16 xl:-mt-20"
+            >
+              <span className="text-white drop-shadow-lg">
+                E-cycle
+              </span>
+            </motion.div>
+          </motion.div>
+
+          {/* Subtítulo - Aparece con scroll trigger */}
+          <motion.div 
+            ref={subtitleRef}
+            initial={{ opacity: 0, y: 30 }}
+            animate={isSubtitleInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-8"
+          >
+            <span className="text-foreground block">
               Transforma residuos en
             </span>
-            <br />
-            <span className="bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent block">
               oportunidades
             </span>
-          </motion.h1>
+          </motion.div>
 
           {/* Subheadline */}
           <motion.p
@@ -102,11 +144,6 @@ export function HeroSection() {
             <Link href="/app">
               <Button size="lg" className="text-lg px-12 py-6 bg-gradient-to-r from-primary to-green-600 hover:from-primary/90 hover:to-green-600/90 shadow-2xl hover:shadow-primary/25 transition-all duration-300">
                 📱 Probar Gratis Ahora
-              </Button>
-            </Link>
-            <Link href="/one-pager">
-              <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-2 hover:bg-primary/5">
-                📄 Ver Casos de Éxito
               </Button>
             </Link>
           </motion.div>
